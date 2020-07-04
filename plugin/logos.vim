@@ -73,3 +73,8 @@ hi def      ebay_e            cterm=bold ctermfg=red
 hi def      ebay_b            cterm=bold ctermfg=blue
 hi def      ebay_a            cterm=bold ctermfg=yellow
 hi def      ebay_y            cterm=bold ctermfg=green
+
+syn match   nutella_n       _\v<n(utella>)@=_
+syn match   nutella_utella  _\v(<n)@<=utella>_
+hi def      nutella_n       ctermfg=black   ctermbg=white
+hi def      nutella_utella  ctermfg=darkred ctermbg=white
